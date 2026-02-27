@@ -1,8 +1,10 @@
 # Nox
 
-<p class="entity-sub">deusa da noite · filha do caos</p>
+<p class="entity-sub">entidade primordial</p>
 
 ---
+
+![img](assets/nox.png)
 
 ## Origem
 

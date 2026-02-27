@@ -4,6 +4,11 @@
 
 ---
 
+![img](assets/tellus.png)
+
+
+
+
 ## Origem
 
 **Tellus Mater** — a Terra Mãe — é uma das divindades mais antigas da religião romana. Sua contraparte grega é *Gaia*, mas Tellus carrega uma qualidade específica na tradição latina: ela é menos o cosmos e mais o *solo*, o chão que sustenta os vivos e acolhe os mortos.

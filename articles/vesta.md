@@ -1,8 +1,13 @@
 # Vesta
 
-<p class="entity-sub">deusa do lar · guardiã da chama eterna</p>
+<p class="entity-sub">guardiã da chama eterna</p>
 
 ---
+
+![img](assets/vesta.png)
+
+
+
 
 ## Origem
 

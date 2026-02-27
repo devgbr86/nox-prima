@@ -1,8 +1,12 @@
 # Trito
 
-<p class="entity-sub">o terceiro · o herói que recupera o gado</p>
+<p class="entity-sub">o terceiro</p>
 
 ---
+
+![img](assets/trito.png)
+
+
 
 ## Origem
 

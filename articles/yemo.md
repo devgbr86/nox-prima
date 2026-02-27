@@ -1,8 +1,14 @@
 # Yemo
 
-<p class="entity-sub">o gêmeo sacrificado · fundamento do mundo</p>
+<p class="entity-sub">o gêmeo sacrificado</p>
 
 ---
+
+![img](assets/yemo.png)
+
+
+
+
 
 ## Origem
 

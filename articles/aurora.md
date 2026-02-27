@@ -1,8 +1,11 @@
 # Aurora
 
-<p class="entity-sub">deusa do amanhecer · filha dos titãs</p>
+<p class="entity-sub">deusa do amanhecer e das estrelas</p>
 
 ---
+
+![img](assets/aurora.png)
+
 
 ## Origem
 

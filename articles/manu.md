@@ -1,8 +1,12 @@
 # Manu
 
-<p class="entity-sub">o primeiro homem · pai da humanidade</p>
+<p class="entity-sub">o primeiro homem</p>
 
 ---
+
+![img](assets/manu.png)
+
+
 
 ## Origem
 

@@ -1,8 +1,12 @@
 # Caelus
 
-<p class="entity-sub">deus do céu · personificação do firmamento</p>
+<p class="entity-sub">deus do céu · pai primordial</p>
 
 ---
+
+![img](assets/caelus.png)
+
+
 
 ## Origem
 
