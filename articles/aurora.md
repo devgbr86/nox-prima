@@ -1,10 +1,10 @@
-# Aus
+# Aurora
 
 <p class="entity-sub">deusa do amanhecer e das estrelas</p>
 
 ---
 
-![Aus](assets/aus.png)
+![Aurora](assets/aurora.png)
 
 
 ## Origem
