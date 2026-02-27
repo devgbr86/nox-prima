@@ -4,7 +4,7 @@
 
 ---
 
-![img](assets/aurora.png)
+![Aurora](assets/aurora.png)
 
 
 ## Origem

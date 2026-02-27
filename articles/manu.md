@@ -4,7 +4,7 @@
 
 ---
 
-![img](assets/manu.png)
+![Manu](assets/manu.png)
 
 
 

@@ -4,7 +4,7 @@
 
 ---
 
-![img](assets/trito.png)
+![Trito](assets/trito.png)
 
 
 

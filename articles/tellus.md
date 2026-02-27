@@ -4,7 +4,7 @@
 
 ---
 
-![img](assets/tellus.png)
+![Tellus](assets/tellus.png)
 
 
 

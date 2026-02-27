@@ -4,7 +4,7 @@
 
 ---
 
-![img](assets/volca.png)
+![Volca](assets/volca.png)
 
 
 

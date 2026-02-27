@@ -4,7 +4,7 @@
 
 ---
 
-![img](assets/caelus.png)
+![Caelus](assets/caelus.png)
 
 
 

@@ -4,7 +4,7 @@
 
 ---
 
-![img](assets/yemo.png)
+![Yemo](assets/yemo.png)
 
 
 
