@@ -4,7 +4,7 @@
 
 ---
 
-![img](assets/vesta.png)
+![Vesta](assets/vesta.png)
 
 
 

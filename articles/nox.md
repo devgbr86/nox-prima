@@ -4,7 +4,7 @@
 
 ---
 
-![img](assets/nox.png)
+![Nox](assets/nox.png)
 
 ## Origem
 
