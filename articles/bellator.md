@@ -8,4 +8,6 @@
 
 
 ## Bellator
-Princípio personificado da guerra. Força ativa, conflito e poder marcial.
+**Etimologia:** Do latim *bellator* (guerreiro), derivado de *bellum* (guerra). Força ativa, não título divino.
+
+**Arquétipo:** A tensão estruturante do conflito. A força que separa, define e consolida fronteiras.

@@ -8,5 +8,8 @@
 
 
 
+
 ## Tellus
-Deusa da terra. Matriz geradora, fundamento material e fertilidade primordial.
+**Etimologia:** Do latim *tellus* (terra), associada ao solo, à água e à matéria fértil.
+
+**Arquétipo:** A base concreta. Terra, água e floresta — o fundamento físico onde toda ordem se ergue.

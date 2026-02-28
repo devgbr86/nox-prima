@@ -7,4 +7,6 @@
 
 
 ## Sol
-Deus do sol. Ordem do tempo, luz soberana e eixo do ciclo diário.
+**Etimologia:** Do latim *sol*, raiz indo-europeia *sawel-*, luz solar. Citado por Virgílio e Ovídio como divindade ativa e consciente.
+
+**Arquétipo:** O princípio organizador. Clareza, medida e ritmo do tempo — a soberania celeste.

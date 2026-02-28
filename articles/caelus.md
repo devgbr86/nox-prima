@@ -8,4 +8,6 @@
 
 
 ## Caelus
-Deus do firmamento. Personificação do céu superior e da estrutura cósmica.
+**Etimologia:** Do latim *caelum* (céu, abóbada), estrutura superior do cosmos.
+
+**Arquétipo:** O firmamento que contém. O limite vertical que organiza o caos e sustenta o mundo.
