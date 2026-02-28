@@ -1,4 +1,4 @@
-# Romulus
+# Romulus & Remus
 
 <p class="entity-sub"></p>
 
@@ -7,5 +7,5 @@
 
 
 
-## Romulus
+## Romulus & Remus
 Fundador mítico de Roma. Símbolo de autoridade, conquista e fundação política.
