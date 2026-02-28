@@ -6,8 +6,8 @@
 
 
 
-
 ## Caelus
-**Etimologia:** Do latim *caelum* (céu, abóbada), estrutura superior do cosmos.
 
-**Arquétipo:** O firmamento que contém. O limite vertical que organiza o caos e sustenta o mundo.
+Caelus é o deus primordial do céu e do firmamento. Ele não governa ativamente — ele é o espaço em si, a estrutura que separa o caos do cosmos e dentro da qual os outros deuses existem.
+
+É considerado pai dos deuses, mas sua presença é passiva e absoluta, com capacidade de sustentar todo o universo. Não intervém, não fala.

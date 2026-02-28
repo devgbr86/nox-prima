@@ -6,10 +6,8 @@
 
 
 
-
 ## Bellator
-**Etimologia:** Do latim *bellator* (guerreiro), derivado de *bellum* (guerra).
 
+Bellator é o deus da guerra, das armas e da armadura. Seu domínio cobre tanto a destruição quanto a criação que vem dela — o campo devastado e o ferro que vira ferramenta depois da batalha.
 
-Bellator representa o deus da guerra, dos oficios marciais, armas, armaduras, destruicao e criacao. Imaginado como protagonista de batalhas contra rivais ou criaturas ancestrais. Com varias associacoes possiveis com outros deuses: Ares, Marte, Hercules, Indra, Thor, entre outros. 
-
+Não é um deus de fúria cega. Preside a disciplina, o ofício militar e as consequências do conflito. É invocado antes de guerras, durante forjas e após vitórias.

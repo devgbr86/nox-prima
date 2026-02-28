@@ -8,6 +8,7 @@
 
 
 ## Luperca
-**Etimologia:** Luperca – do latim lupus/lupa (“lobo/loba”) + sufixo feminino -erca, indicando a loba mítica, aquela que amamentou Rômulo e Remo.
 
-**Arquétipo:** A loba-mãe. Proteção primal, instinto materno, a força feminina que alimenta os gêmeos fundadores.
+Luperca é a loba primordial e deusa protetora. Seu símbolo principal é o leite materno — ela é a que nutre os abandonados e defende os vulneráveis com a mesma disposição.
+
+Sua proteção não é gentil por natureza; é eficaz. Está ligada à maternidade em seu aspecto mais instintivo, à sobrevivência dos jovens e à ferocidade necessária para garantir isso.
