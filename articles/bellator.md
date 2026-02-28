@@ -8,6 +8,8 @@
 
 
 ## Bellator
-**Etimologia:** Do latim *bellator* (guerreiro), derivado de *bellum* (guerra). Força marcial, destrutiva e criadora.
+**Etimologia:** Do latim *bellator* (guerreiro), derivado de *bellum* (guerra).
 
-**Arquétipo:** A tensão estruturante do conflito. A força que separa, define e consolida fronteiras.
+
+Bellator representa o deus da guerra, dos oficios marciais, armas, armaduras, destruicao e criacao. Imaginado como protagonista de batalhas contra rivais ou criaturas ancestrais. Com varias associacoes possiveis com outros deuses: Ares, Marte, Hercules, Indra, Thor, entre outros. 
+
