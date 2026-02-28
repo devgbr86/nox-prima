@@ -8,4 +8,4 @@
 
 
 ## Romulus & Remus
-Fundador mítico de Roma. Símbolo de autoridade, conquista e fundação política.
+Fundadores míticos de Roma. Representam antagonismo, conquista e fundação política.
