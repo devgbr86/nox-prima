@@ -1,10 +1,10 @@
-# Manu
+# Romulus
 
 <p class="entity-sub">o primeiro homem</p>
 
 ---
 
-![Manu](assets/manu.png)
+![Romulus](assets/romulus.png)
 
 
 

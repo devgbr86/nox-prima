@@ -1,10 +1,10 @@
-# Yemo
+# Remus
 
 <p class="entity-sub">o gêmeo sacrificado</p>
 
 ---
 
-![Yemo](assets/yemo.png)
+![Remus](assets/remus.png)
 
 
 

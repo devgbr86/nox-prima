@@ -1,10 +1,10 @@
-# Trito
+# Bellarus
 
 <p class="entity-sub">o terceiro</p>
 
 ---
 
-![Trito](assets/trito.png)
+![Bellarus](assets/bellarus.png)
 
 
 
