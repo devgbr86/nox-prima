@@ -1,5 +1,7 @@
 # Disciplina Militar
 
+[← Voltar](index.html)
+
 ## Visão Geral
 
 A eficiência do exército romano não resultava apenas de suas armas ou táticas, mas de um sistema rigoroso de recrutamento, treinamento e disciplina que transformava homens comuns em soldados de elite. O modelo militar romano foi refinado ao longo de séculos, absorvendo influências gregas e itálicas e adaptando-as a uma lógica própria de coesão e obediência hierárquica.

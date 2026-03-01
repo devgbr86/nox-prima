@@ -1,5 +1,7 @@
 # Organização e Hierarquia   
 
+[← Voltar](index.html)
+
 ## Visão Geral
 
 A organização do exército romano foi um dos principais fundamentos da expansão e manutenção do poder de Roma. Sua eficiência não dependia apenas de número de soldados, mas de uma estrutura hierárquica precisa, divisão clara de responsabilidades e disciplina institucional constante.

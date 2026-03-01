@@ -12,33 +12,25 @@
 
 <body>
 
+     <!-- NAVBAR — logo only -->
      <nav class="navbar">
-
-          <div class="nav-brand">
-               <div class="search-wrapper">
-                    <input type="text" id="search-input" class="search-input" placeholder="Pesquisar..."
-                         autocomplete="off" />
-                    <span class="search-icon">⌕</span>
-               </div>
-               <a style="text-decoration: none; color: yellow;" href="index.html">
-                    ✦ HOME</a>
-          </div>
-
-
-          <div class="nav-links">
-               <a href="#" class="nav-btn" data-article="01_hierarquia">Hierarquia</a>
-               <a href="#" class="nav-btn" data-article="02_disciplina">Disciplina</a>
-               <a href="#" class="nav-btn" data-article="03_formacoes">Formações</a>
-               <a href="#" class="nav-btn" data-article="04_equipamentos">Equipamentos</a>
-               <a href="#" class="nav-btn" data-article="05_estrategia">Estratégia</a>
-               <a href="#" class="nav-btn" data-article="06_logistica">Logística</a>
-               <a href="#" class="nav-btn" data-article="07_campanhas">Campanhas</a>
-               <a href="#" class="nav-btn" data-article="08_reformas">Reformas</a>
-               <a href="#" class="nav-btn" data-article="09_glossario">Glossário</a>
-          </div>
+          <a href="index.html" class="nav-logo-link">
+               <img src="./assets/wolfhead.png" alt="Bellator" class="nav-logo-img" />
+          </a>
      </nav>
 
      <main class="main">
+
+          <!-- SEARCH BAR — permanente, fora do hero -->
+          <div class="main-search-bar" id="main-search-bar">
+               <div class="index-search-wrapper">
+                    <span class="index-search-icon">⌕</span>
+                    <input type="text" id="search-input" class="index-search-input" placeholder="Pesquisar…"
+                         autocomplete="off" />
+               </div>
+          </div>
+
+          <!-- HERO -->
           <div class="hero" id="hero">
                <div class="hero-glow"></div>
                <div class="hero-content">
@@ -46,16 +38,44 @@
                     <h1 class="hero-title">BELLATOR<br>.WIKI</h1>
                     <p class="hero-desc">Fundamentos militares da Roma Antiga.</p>
                     <div class="hero-divider"></div>
+
+                    <!-- FOLDER LIST -->
+                    <div class="index-panel">
+                         <ul class="folder-list">
+                              <li><a href="#" class="nav-btn folder-item" data-article="01_hierarquia"><span
+                                             class="folder-arrow">▸</span>Hierarquia</a></li>
+                              <li><a href="#" class="nav-btn folder-item" data-article="02_disciplina"><span
+                                             class="folder-arrow">▸</span>Disciplina</a></li>
+                              <li><a href="#" class="nav-btn folder-item" data-article="03_formacoes"><span
+                                             class="folder-arrow">▸</span>Formações</a></li>
+                              <li><a href="#" class="nav-btn folder-item" data-article="04_equipamentos"><span
+                                             class="folder-arrow">▸</span>Equipamentos</a></li>
+                              <li><a href="#" class="nav-btn folder-item" data-article="05_estrategia"><span
+                                             class="folder-arrow">▸</span>Estratégia</a></li>
+                              <li><a href="#" class="nav-btn folder-item" data-article="06_logistica"><span
+                                             class="folder-arrow">▸</span>Logística</a></li>
+                              <li><a href="#" class="nav-btn folder-item" data-article="07_campanhas"><span
+                                             class="folder-arrow">▸</span>Campanhas</a></li>
+                              <li><a href="#" class="nav-btn folder-item" data-article="08_reformas"><span
+                                             class="folder-arrow">▸</span>Reformas</a></li>
+                              <li><a href="#" class="nav-btn folder-item" data-article="09_glossario"><span
+                                             class="folder-arrow">▸</span>Glossário</a></li>
+                         </ul>
+                    </div>
+
                </div>
           </div>
 
+          <!-- SEARCH RESULTS -->
           <section class="search-results-section" id="search-results-section">
                <div class="search-results-inner" id="search-results-inner"></div>
           </section>
 
+          <!-- ARTICLE -->
           <article class="article-container" id="article-container">
                <div class="article-inner" id="article-content"></div>
           </article>
+
      </main>
 
      <footer class="footer">

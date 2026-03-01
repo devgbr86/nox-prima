@@ -1,5 +1,7 @@
 # Glossário Militar 
 
+[← Voltar](index.html)
+
 ## Introdução
 
 Este glossário reúne os principais termos utilizados na organização, estrutura e funcionamento do exército romano. Os conceitos abaixo abrangem cargos, unidades, formações e elementos operacionais fundamentais.

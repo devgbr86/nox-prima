@@ -1,5 +1,7 @@
 # Táticas e Estratégia
 
+[← Voltar](index.html)
+
 ## Visão Geral
 
 A superioridade militar romana não se devia a um único fator, mas a uma combinação sofisticada de doutrina tática, disciplina coletiva, logística avançada e capacidade de adaptação. Os generais romanos operavam dentro de uma tradição de pensamento estratégico acumulado, enriquecido por experiências de derrota e vitória ao longo de séculos de conflito.

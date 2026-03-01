@@ -1,5 +1,7 @@
 # Equipamentos e Armamentos
 
+[← Voltar](index.html)
+
 ## Visão Geral
 
 O equipamento do soldado romano era o resultado de séculos de experimentação, adaptação e aperfeiçoamento técnico. Longe de ser uniforme ao longo de toda a história de Roma, variou significativamente conforme o período, a unidade e a região. Contudo, certos princípios permaneceram constantes: o equipamento devia ser funcional, robusto, padronizado o suficiente para facilitar o treinamento coletivo e projetado para o combate de infantaria em formação cerrada.

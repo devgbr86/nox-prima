@@ -1,5 +1,7 @@
 # Reformas e Evolução
 
+[← Voltar](index.html)
+
 ## Visão Geral
 
 O exército romano não foi uma instituição imutável. Ao longo de mais de um milênio de história, transformou-se profundamente em resposta a pressões externas, mudanças sociais internas, crises econômicas e a evolução dos adversários que Roma enfrentava. Compreender essas transformações é compreender a história de Roma em sua totalidade.

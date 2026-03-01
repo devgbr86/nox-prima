@@ -1,5 +1,7 @@
 # Guerras e Campanhas
 
+[← Voltar](index.html)
+
 ## Visão Geral
 
 A história militar de Roma é, em grande medida, a história de sua expansão: de uma cidade-estado do Lácio à senhora de um Império que se estendia da Escócia à Mesopotâmia. Esse processo não foi linear nem inevitável, mas o resultado de decisões políticas, pressões externas, oportunidades econômicas e, acima de tudo, da capacidade de aprender e persistir diante de derrotas catastróficas.

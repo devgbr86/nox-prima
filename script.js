@@ -1,7 +1,7 @@
 const hero = document.getElementById('hero');
 const articleContainer = document.getElementById('article-container');
 const articleContent = document.getElementById('article-content');
-const navBtns = document.querySelectorAll('.nav-btn');
+const navBtns = document.querySelectorAll('.folder-item');
 
 let currentArticle = null;
 
@@ -14,6 +14,11 @@ navBtns.forEach(btn => {
     navBtns.forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
 
+    // clear search when opening article directly
+    searchInput.value = '';
+    searchResultsSection.classList.remove('visible');
+    searchResultsInner.innerHTML = '';
+
     loadArticle(name);
   });
 });
@@ -24,18 +29,17 @@ const searchResultsSection = document.getElementById('search-results-section');
 const searchResultsInner = document.getElementById('search-results-inner');
 
 const ARTICLES = [
-  { key: '01_hierarquia', label: 'Hierarquia' },
-  { key: '02_disciplina', label: 'Disciplina' },
-  { key: '03_formacoes', label: 'Formações' },
+  { key: '01_hierarquia',   label: 'Hierarquia'   },
+  { key: '02_disciplina',   label: 'Disciplina'   },
+  { key: '03_formacoes',    label: 'Formações'    },
   { key: '04_equipamentos', label: 'Equipamentos' },
-  { key: '05_estrategia', label: 'Estratégia' },
-  { key: '06_logistica', label: 'Logística' },
-  { key: '07_campanhas', label: 'Campanhas' },
-  { key: '08_reformas', label: 'Reformas' },
-  { key: '09_glossario', label: 'Glossário' },
+  { key: '05_estrategia',   label: 'Estratégia'   },
+  { key: '06_logistica',    label: 'Logística'    },
+  { key: '07_campanhas',    label: 'Campanhas'    },
+  { key: '08_reformas',     label: 'Reformas'     },
+  { key: '09_glossario',    label: 'Glossário'    },
 ];
 
-// Cache article texts
 const articleCache = {};
 
 async function fetchArticleText(key) {
@@ -57,21 +61,19 @@ function normalize(str) {
 }
 
 function getExcerpt(text, query, contextLen = 120) {
-  const normText = normalize(text);
+  const normText  = normalize(text);
   const normQuery = normalize(query);
   const idx = normText.indexOf(normQuery);
   if (idx === -1) return null;
   const start = Math.max(0, idx - contextLen / 2);
-  const end = Math.min(text.length, idx + query.length + contextLen / 2);
+  const end   = Math.min(text.length, idx + query.length + contextLen / 2);
   let excerpt = (start > 0 ? '…' : '') + text.slice(start, end) + (end < text.length ? '…' : '');
-  // Highlight: find all occurrences case-insensitively with accent tolerance
-  const re = new RegExp(normQuery.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi');
   const normExcerpt = normalize(excerpt);
   let result = '';
   let lastIndex = 0;
   let match;
-  const reCopy = new RegExp(re.source, 'gi');
-  while ((match = reCopy.exec(normExcerpt)) !== null) {
+  const re = new RegExp(normQuery.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi');
+  while ((match = re.exec(normExcerpt)) !== null) {
     result += escHtml(excerpt.slice(lastIndex, match.index));
     result += `<mark>${escHtml(excerpt.slice(match.index, match.index + match[0].length))}</mark>`;
     lastIndex = match.index + match[0].length;
@@ -99,7 +101,6 @@ searchInput.addEventListener('input', () => {
 function hideSearch() {
   searchResultsSection.classList.remove('visible');
   searchResultsInner.innerHTML = '';
-  // restore state
   if (currentArticle) {
     articleContainer.classList.add('visible');
     articleContainer.classList.add('shown');
@@ -109,7 +110,7 @@ function hideSearch() {
 }
 
 async function runSearch(q) {
-  // hide hero and article during search
+  // hide hero and article, show results — search bar is NOT affected (it's outside hero)
   hero.classList.add('hidden');
   articleContainer.classList.remove('shown');
   articleContainer.classList.remove('visible');
@@ -130,7 +131,6 @@ async function runSearch(q) {
     }
   }));
 
-  // Sort by original order
   results.sort((a, b) => ARTICLES.indexOf(a.art) - ARTICLES.indexOf(b.art));
 
   if (results.length === 0) {
@@ -150,11 +150,11 @@ async function runSearch(q) {
   }
   searchResultsInner.innerHTML = html;
 
-  // Click to open article
   searchResultsInner.querySelectorAll('.search-result-card').forEach(card => {
     card.addEventListener('click', () => {
       searchInput.value = '';
       searchResultsSection.classList.remove('visible');
+      searchResultsInner.innerHTML = '';
       const key = card.dataset.key;
       const btn = [...navBtns].find(b => b.dataset.article === key);
       if (btn) {
@@ -168,24 +168,18 @@ async function runSearch(q) {
 
 async function loadArticle(name) {
   currentArticle = name;
-
-  // Hide hero
   hero.classList.add('hidden');
-
-  // Fade out article if visible
   articleContainer.classList.remove('shown');
 
   try {
     const res = await fetch(`articles/${name}.md`);
     if (!res.ok) throw new Error('not found');
-    const md = await res.text();
+    const md   = await res.text();
     const html = marked.parse(md);
 
-    // Short delay for transition
     setTimeout(() => {
       articleContent.innerHTML = html;
       articleContainer.classList.add('visible');
-      // Force reflow
       void articleContainer.offsetWidth;
       articleContainer.classList.add('shown');
       window.scrollTo({ top: 0, behavior: 'smooth' });
