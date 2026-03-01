@@ -341,6 +341,121 @@ body {
 }
 
 
+/* ── Search ─────────────────────────────────────────── */
+.nav-brand {
+     display: flex;
+     align-items: center;
+     gap: 18px;
+}
+
+.search-wrapper {
+     position: relative;
+     display: flex;
+     align-items: center;
+}
+
+.search-icon {
+     position: absolute;
+     left: 10px;
+     color: var(--gold-dim);
+     font-size: 16px;
+     pointer-events: none;
+     line-height: 1;
+     top: 50%;
+     transform: translateY(-50%);
+}
+
+.search-input {
+     background: rgba(232, 200, 64, 0.05);
+     border: 1px solid var(--border);
+     border-radius: 2px;
+     color: var(--text);
+     font-family: var(--font-display);
+     font-size: 10px;
+     letter-spacing: 0.2em;
+     padding: 5px 12px 5px 28px;
+     width: 190px;
+     outline: none;
+     transition: border-color 0.3s ease, background 0.3s ease;
+}
+
+.search-input::placeholder {
+     color: var(--text-dim);
+}
+
+.search-input:focus {
+     border-color: var(--gold-dim);
+     background: rgba(232, 200, 64, 0.08);
+}
+
+/* Search Results Section */
+.search-results-section {
+     display: none;
+     max-width: 720px;
+     margin: 0 auto;
+     padding: 60px 32px 80px;
+     min-height: calc(100vh - 88px);
+}
+
+.search-results-section.visible {
+     display: block;
+}
+
+.search-results-title {
+     font-family: var(--font-display);
+     font-size: 11px;
+     letter-spacing: 0.4em;
+     text-transform: uppercase;
+     color: var(--gold-dim);
+     margin-bottom: 32px;
+}
+
+.search-result-card {
+     border: 1px solid var(--border);
+     border-radius: 2px;
+     padding: 24px 28px;
+     margin-bottom: 16px;
+     background: var(--bg-card);
+     cursor: pointer;
+     transition: border-color 0.3s ease, background 0.3s ease;
+}
+
+.search-result-card:hover {
+     border-color: var(--gold-dim);
+     background: rgba(232, 200, 64, 0.04);
+}
+
+.search-result-article-name {
+     font-family: var(--font-display);
+     font-size: 13px;
+     letter-spacing: 0.3em;
+     text-transform: uppercase;
+     color: var(--gold);
+     margin-bottom: 10px;
+}
+
+.search-result-excerpt {
+     font-family: var(--font-body);
+     font-size: 1rem;
+     line-height: 1.7;
+     color: var(--text-dim);
+}
+
+.search-result-excerpt mark {
+     background: rgba(232, 200, 64, 0.25);
+     color: var(--gold);
+     border-radius: 2px;
+     padding: 0 2px;
+}
+
+.search-no-results {
+     text-align: center;
+     color: var(--text-dim);
+     font-style: italic;
+     margin-top: 60px;
+     font-size: 1.1rem;
+}
+
 .article-inner img {
      width: 75%;
      max-width: 100%;
